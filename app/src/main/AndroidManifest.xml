@@ -13,6 +13,21 @@
         android:theme="@style/Theme.DTasker"
         tools:targetApi="31">
         <activity
+            android:name=".UserInfo"
+            android:exported="false" />
+        <activity
+            android:name=".signUpScreen"
+            android:exported="false" />
+        <activity
+            android:name=".main_screen"
+            android:exported="false" />
+        <activity
+            android:name=".loginScreen"
+            android:exported="false" />
+        <activity
+            android:name=".DevInfo"
+            android:exported="false" />
+        <activity
             android:name=".SplashActivity"
             android:exported="true">
             <intent-filter>
@@ -23,8 +38,7 @@
         </activity>
         <activity
             android:name=".MainActivity"
-            android:exported="true"/>
-
+            android:exported="true" />
     </application>
 
 </manifest>
