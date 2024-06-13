@@ -26,7 +26,8 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/tasksText"
         app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
-        android:nestedScrollingEnabled="true"
+        android:nestedScrollingEnabled="true"/>
+
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/fab"
@@ -37,11 +38,5 @@
         android:layout_margin="32dp"
         android:backgroundTint="@android:color/holo_blue_dark"
         android:src="@drawable/baseline_add_24"/>
-
-
-
-
-
-
 
 </RelativeLayout>
